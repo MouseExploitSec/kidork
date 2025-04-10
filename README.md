@@ -51,8 +51,8 @@ sudo apt update
 sudo apt install python3 python3-pip
 git clone https://github.com/MouseExploitSec/kidork
 cd kidork
-cd kidork-msxsec
 pip3 install -r requirements.txt
+cd kidork-msxsec
 python kidork.py --help
 ```
 
@@ -62,8 +62,8 @@ pkg update && pkg upgrade
 pkg install python
 git clone https://github.com/MouseExploitSec/kidork
 cd kidork
-cd kidork-msxsec
 pip install -r requirements.txt
+cd kidork-msxsec
 python kidork.py --help
 ```
 
